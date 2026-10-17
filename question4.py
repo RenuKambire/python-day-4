@@ -1,0 +1,8 @@
+file = open("data.txt")
+content = file.read()
+file.close()
+words = content.split()
+words =content.split()
+print("total number of words:",len(words))
+unique_words = set(words)
+print("unique words:",unique_words)
